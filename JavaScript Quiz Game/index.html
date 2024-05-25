@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz Game - Quiz</title>
+    <link rel="icon" href="Pictures/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <h1>JavaScript Quiz Game</h1>
+        </div>
+    </header>
+    <nav class="nova">
+        <a class="navvv" href="home.html">Home</a>&nbsp;
+        <a class="navvv" href="contact.html">Contact Us</a>&nbsp;
+        <a class="navvv" href="about.html">About Us</a>&nbsp;
+        <a class="navvv login" href="login.html">Login/SignUp</a>&nbsp;
+    </nav>
+    <main>
+        <section class="main">
+            <div class="timer" id="timer">00:00</div>
+            <div id="box">
+                <h2 id="quesBox">
+                    1) This is a dummy question.
+                </h2>
+                <div class="row">
+                    <input class="options" id="option1" type="radio" value="a" name="option">
+                    <label for="option1">Option 1</label>
+                </div>
+                <div class="row">
+                    <input class="options" id="option2" type="radio" value="b" name="option">
+                    <label for="option2">Option 2</label>
+                </div>
+                <div class="row">
+                    <input class="options" id="option3" type="radio" value="c" name="option">
+                    <label for="option3">Option 3</label>
+                </div>
+                <div class="row">
+                    <input class="options" id="option4" type="radio" value="d" name="option">
+                    <label for="option4">Option 4</label>
+                </div>
+                <div class="btn" id="buton">
+                    <button class="btn2" onclick="prevQuiz()">
+                        Previous
+                    </button>
+                    <button class="btn2" id="subz" onclick="submitQuiz()">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a class="navvv" href="faq.html">FAQ</a>&nbsp;
+        <a class="navvv" href="terms.html">Terms of Use</a>&nbsp;
+        <a class="navvv" href="privacy.html">Privacy Policy</a>&nbsp;
+        <a class="navvv copyr" href="home.html">&copy; 2023 | JavaScript Quiz Game</a>&nbsp;
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
